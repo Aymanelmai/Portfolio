@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Open+Sans:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto&display=swap');
+
+.Work_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.Number_P1_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+
+
+.Number_Two {
+    font-size: 32px;
+    color: #64ffda;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Work_P1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ccd6f6;
+}
+
+.Images_Styling {
+  width: 50rem;
+  height: auto;
+}
+
+.Image_Text_Container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  color: #8892b0;
+  font-size: 30px;
+  
+}

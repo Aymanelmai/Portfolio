@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Navbar_Elements {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: black;
+  align-items: center;
+  gap: 20px;
+  height: 30%;
+  padding: 0 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.Navbar_Left_Elements {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #64ffda;
+  font-size: 1.5rem;
+  font-style: bold;
+  justify-self: start;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10vh;
+}
+
+.Logo {
+  display: flex;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-size: 40px;
+  color: white;
+
+
+}
+
+
+.Navbar_Right_Elements {
+  display: flex;
+  justify-content: center;
+}
+
+.Navbar_Elements a:hover {
+  background-color: transparent;
+  color: #64ffda;
+  cursor: pointer;
+}
+.elementsCard {
+  border-radius: 10px;
+  box-sizing: content-box;
+  box-shadow: blanchedalmond;
+  padding-top: -3%;
+  padding-bottom: -3%;
+  background-color: #94939315;
+  padding-right: 5%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5vw;
+}
+
+.pill :hover {
+  cursor: pointer;
+  background-color: #ffffff8c;
+}
+
+.Navbar_Underline {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(100, 100, 100, 0),
+    rgba(58, 57, 57, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}

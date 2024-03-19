@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Open+Sans:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto&display=swap');
+
+
+
+
+
+.Number_One {
+
+  font-size: 32px;
+  color: #64ffda;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.About_P1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #4E3A81;
+}
+
+
+
+
+.About_P2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  color: #8892b0;
+  font-size: 20px;
+}
+
+
+.Hero_List_Container {
+  display: flex;
+  flex-direction: row;
+  color: #8892b0;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  gap: 4rem;
+  width: 60rem;
+  
+  
+}
+
+.line {
+  animation: animate__bounce 2s infinite; /* Adjust duration as needed */
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #64ffda;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "\2022"; 
+  color: #64ffda; 
+  font-size: 1.2em; 
+  margin-right: 0.5em; 
+}
+
+
+
+.About_Image_Container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5rem;
+}
